@@ -17,4 +17,4 @@ Universal Windows Apps give us the opportunity to reuse the same code in several
 
 # Comments
 
-If you want to run the code with a physical mobile device you need to enable the "Developer Mode" in settings and always remember to add the "Extensions for UWP", more information about this: 
+If you want to run the code with a physical mobile device you need to enable the "Developer Mode" in settings and always remember to add the "Extensions for UWP", more information about this: https://wp.me/p4REoZ-FY
