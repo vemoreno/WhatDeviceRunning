@@ -15,6 +15,8 @@ Universal Windows Apps give us the opportunity to reuse the same code in several
 * Windows 10.
 * Windows 10 Mobile or emulator.
 
-# Comments
+# Additional information
 
 If you want to run the code with a physical mobile device you need to enable the "Developer Mode" in settings and always remember to add the "Extensions for UWP", more information about this: https://wp.me/p4REoZ-FY
+
+To see how was created and works this project, you can do click in this link: http://bit.ly/2iYyP74
