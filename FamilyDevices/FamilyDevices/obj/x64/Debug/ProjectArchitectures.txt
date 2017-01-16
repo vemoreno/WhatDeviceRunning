@@ -1,0 +1,1 @@
+C:\Users\Víctor\Documents\GitHub\WhatDeviceRunning\FamilyDevices\FamilyDevices\FamilyDevices.csproj;x64

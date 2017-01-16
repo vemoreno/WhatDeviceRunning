@@ -27,7 +27,6 @@ namespace FamilyDevices
         {
             this.InitializeComponent();
         }
-
         private async void btnWhatDevice_Click(object sender, RoutedEventArgs e)
         {
             string whatFamily = Windows.System.Profile.AnalyticsInfo.VersionInfo.DeviceFamily;
@@ -39,13 +38,11 @@ namespace FamilyDevices
 
                 this.Frame.Navigate(typeof(DeviceFamily));
             }
-
             else if (whatFamily == "Windows.IoT")
             {
                 MessageDialog myMessage = new MessageDialog("I'm running in an electronic device (IoT)", "Family");
                 await myMessage.ShowAsync();
             }
-
             else if (whatFamily == "Windows.Xbox")
             {
                 MessageDialog myMessage = new MessageDialog("I'm running in Xbox console", "Family");
@@ -54,11 +51,8 @@ namespace FamilyDevices
             else if (whatFamily == "Windows.Desktop")
             {
                 MessageDialog myMessage = new MessageDialog("I'm running in Desktop", "Family");
-                await myMessage.ShowAsync();
-
-                
+                await myMessage.ShowAsync();                
             }
-
             else if (whatFamily == "Windows.Hololens")
             {
                 MessageDialog myMessage = new MessageDialog("I'm running in Hololens glasses", "Family");
